@@ -1,17 +1,14 @@
 {
-  "name": "@ken_ichi/phaser-spine",
+  "name": "@k3n/phaser-spine",
   "author": "OrangeGames",
-  "version": "3.0.9a",
+  "version": "3.0.9-a",
   "description": "Spine plugin for Phaser CE with image atlas fixes",
   "contributors": [
-    {
-      "name": "Ale Bles",
-      "email": "a.bles@orangegames.com"
-    }
+    "Ale Bles <a.bles@orangegames.com>"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/K3nIchi/phaser-spine.git"
+    "url": "git+https://github.com/K3nIchi/phaser-spine.git"
   },
   "licenses": [
     {
@@ -19,12 +16,11 @@
       "url": "https://raw.githubusercontent.com/orange-games/phaser-spine/master/LICENSE"
     }
   ],
-  "bugs":
-  {
+  "bugs": {
     "url": "https://github.com/orange-games/phaser-spine/issues"
-  }
-  ,
+  },
   "config": {
     "name": "phaser-spine"
-  }
+  },
+  "homepage": "https://github.com/K3nIchi/phaser-spine#readme"
 }
