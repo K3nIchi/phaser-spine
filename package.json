@@ -1,8 +1,8 @@
 {
-  "name": "@orange-games/phaser-spine",
+  "name": "@ken_ichi/phaser-spine",
   "author": "OrangeGames",
-  "version": "3.0.9",
-  "description": "Spine plugin for Phaser.io!",
+  "version": "3.0.9a",
+  "description": "Spine plugin for Phaser CE with image atlas fixes",
   "contributors": [
     {
       "name": "Ale Bles",
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:orange-games/phaser-spine.git"
+    "url": "https://github.com/K3nIchi/phaser-spine.git"
   },
   "licenses": [
     {
@@ -19,25 +19,12 @@
       "url": "https://raw.githubusercontent.com/orange-games/phaser-spine/master/LICENSE"
     }
   ],
-  "bugs": [
-    {
-      "url": "https://github.com/orange-games/phaser-spine/issues"
-    }
-  ],
+  "bugs":
+  {
+    "url": "https://github.com/orange-games/phaser-spine/issues"
+  }
+  ,
   "config": {
     "name": "phaser-spine"
-  },
-  "devDependencies": {
-    "grunt": "1.0.x",
-    "grunt-banner": "^0.6.0",
-    "grunt-contrib-clean": "1.0.x",
-    "grunt-contrib-concat": "1.0.x",
-    "grunt-contrib-connect": "1.0.x",
-    "grunt-contrib-uglify": "2.0.x",
-    "grunt-contrib-watch": "1.0.x",
-    "grunt-ts": "^6.0.0-beta.3",
-    "phaser": "2.6.2",
-    "typescript": "2.1.x"
-  },
-  "typings": "./config/typings.json"
+  }
 }
