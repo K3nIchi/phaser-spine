@@ -127,12 +127,12 @@ spine.Bone.prototype = {
 		var parent = this.parent;
 		if (!parent) { // Root bone.
 			var skeleton = this.skeleton;
-			if (skeleton.flipX) {
+			if (skeleton.flipX || scaleX == -1) {
 				x = -x;
 				la = -la;
 				lb = -lb;
 			}
-			if (skeleton.flipY != spine.Bone.yDown) {
+			if (skeleton.flipY) {
 				y = -y;
 				lc = -lc;
 				ld = -ld;
@@ -3087,11 +3087,9 @@ var PhaserSpine;
                     slotContainer.scale.x = bone.getWorldScaleX();
                     slotContainer.scale.y = bone.getWorldScaleY();
                     slotContainer.rotation = (bone.getWorldRotationX() - attachment.rotation) * Math.PI / 180;
-                    if (bone.getWorldScaleY() < 0) {
-                        slotContainer.scale.y = -slotContainer.scale.y;
-                    }
                     if (bone.getWorldScaleX() < 0) {
-                        slotContainer.scale.x = -slotContainer.scale.x;
+						slotContainer.scale.x = -slotContainer.scale.x;
+						slotContainer.scale.y = -slotContainer.scale.y;
                     }
                     if (bone.getWorldScaleY() < 0 || bone.getWorldScaleX() < 0) {
                         slotContainer.rotation = -slotContainer.rotation;
