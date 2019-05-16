@@ -1,7 +1,7 @@
 {
   "name": "@k3n/phaser-spine",
   "author": "OrangeGames",
-  "version": "3.0.9-a",
+  "version": "3.0.9-b",
   "description": "Spine plugin for Phaser CE with image atlas fixes",
   "contributors": [
     "Ale Bles <a.bles@orangegames.com>"
